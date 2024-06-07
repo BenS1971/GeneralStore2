@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneralStoreApi2.Data", "GeneralStoreApi2.Data\GeneralStoreApi2.Data.csproj", "{A30FE214-7212-478C-B128-EC0B5D29FEC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneralStore2.WebApi", "GeneralStore2.WebApi\GeneralStore2.WebApi.csproj", "{72331E18-0AC0-457A-821A-D39281976669}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +14,15 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A30FE214-7212-478C-B128-EC0B5D29FEC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A30FE214-7212-478C-B128-EC0B5D29FEC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A30FE214-7212-478C-B128-EC0B5D29FEC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A30FE214-7212-478C-B128-EC0B5D29FEC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72331E18-0AC0-457A-821A-D39281976669}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72331E18-0AC0-457A-821A-D39281976669}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72331E18-0AC0-457A-821A-D39281976669}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72331E18-0AC0-457A-821A-D39281976669}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
